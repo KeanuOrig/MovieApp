@@ -4,7 +4,6 @@ import Axios from 'axios';
 import 'bootswatch/dist/sketchy/bootstrap.min.css';
 import {useSelector, useDispatch, connect} from 'react-redux';
 import {movieName, review, newReview, file} from './../redux/actions'
-import React, { useState } from 'react';
 
 function Home(props) {
 
@@ -27,6 +26,7 @@ function Home(props) {
   }
   useEffect(() =>{
     fetchData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
 
 /*  const submitReview = () =>{
