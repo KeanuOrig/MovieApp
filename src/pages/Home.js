@@ -48,7 +48,7 @@ function Home(props) {
   }
 
   const deleteReview = (id) =>{
-    Axios.delete(`https://mysql-crud-application.herokuapp.com/delete/${id}`).then(alert("Deleted"))
+    Axios.delete(`https://mysql-crud-application.herokuapp.com/api/delete/${id}`).then(alert("Deleted"))
     fetchData()
   }
 
