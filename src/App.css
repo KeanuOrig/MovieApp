@@ -7,3 +7,7 @@ textarea{
 card{
   width: 100% !important;
 }
+.loadingSpinner{
+  height: 300px !important;
+  width: 300px !important;
+}
