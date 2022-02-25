@@ -86,7 +86,7 @@ function Home(props) {
                 {movieList.map((value) =>{
                   return (
                     <div key={value.id} className="card m-3">
-                      <img alt="movie" src={`/images/logo512.png`}/>
+                      <img alt="movie" src={`https://mysql-crud-application.herokuapp.com/images/${value.image}`}/>
                     
                       <div className="card-body mb-3">
                         <h5 className="card-title">{value.movieName}</h5>
